@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    border: 2px dashed rgb(56, 54, 54);
+}
+
+th, td {
+    border: rgb(13, 12, 17) dashed  2px;
+}
+
+body{
+    background-color: rgb(176, 180, 194);
+}
