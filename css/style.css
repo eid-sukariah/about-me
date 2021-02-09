@@ -4,9 +4,18 @@ table {
 }
 
 th, td {
-    border: rgb(13, 12, 17) dashed  2px;
+    border: rgb(13, 12, 17) solid  2px;
 }
 
 body{
-    background-color: rgb(176, 180, 194);
+    background-color: rgb(255, 255, 255);
 }
+ol, ul, table {
+    font-size: x-large;
+    background-color: rgb(229, 237, 241)
+}
+
+
+
+
+

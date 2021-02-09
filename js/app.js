@@ -1,6 +1,6 @@
 'use strict'
 
-let userName = prompt('what is your name?')
+/*let userName = prompt('what is your name?')
 alert ('welcome  ' + userName)
 
 
@@ -60,3 +60,62 @@ let myFood = prompt('do you know my fav food?')
         alert (' is shawrma!');
     }
         console.log (myFood)
+
+*/
+
+//let myA = 24;
+
+   /*switch (qu1){
+    case '24':
+       alert('right');
+       break;
+    case qu1 >'24':
+        alert('too high');
+    case qu1 < '24':
+        alert('too low')
+
+   }
+    */
+let myA = 24;
+let qu1 = prompt('Do you know how old I am');
+   
+    for(let i=0; i<4; i++){
+        
+    if (qu1 == myA ){
+    alert('right');
+    break
+    }
+    else if  (qu1 < myA ){
+        alert('too low');
+        qu1 =prompt  ('again pleas');
+    }
+   
+    else {
+        (qu1 > myA) 
+        alert('too high')
+    }
+    qu1 = prompt('again pleas')
+   
+}
+
+let found = false;
+let bigCity = ['irbid', 'amman', 'alzaqaa', 'ma`an', 'ajlon', 'jarash' ]
+
+for (i=0; i<6; i++){
+    let tru = prompt('what is the biggest city in jordan')
+    tru = tru.toLowerCase();
+        for (let j = 0; j < bigCity.length;j++) {
+            if (tru === bigCity[j]){
+                found = true;
+                break
+            }
+            
+        }
+
+        if(found === true){
+            break;
+        }
+    }
+
+
+    
