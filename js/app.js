@@ -1,5 +1,5 @@
 'use strict'
-
+/*
 let userName = prompt('what is your name?')
 alert ('welcome  ' + userName)
 
@@ -93,17 +93,22 @@ let qu1 = prompt('Do you know how old I am');
     
    
 }
+*/
 
 let found = false;
 let bigCity = ['irbid', 'amman', 'alzaqaa', 'ma`an', 'ajlon', 'jarash' ]
+let tru = prompt('what is the biggest city in jordan')
+    tru = tru.toLowerCase();
 
 for (i=0; i<6; i++){
-    let tru = prompt('what is the biggest city in jordan')
-    tru = tru.toLowerCase();
-        for (let j = 0; j < bigCity.length;j++) {
-            if (tru === bigCity[j]){
-                found = true;
+    
+        for (let j = 0; j < bigCity.length; j++) {
+            if (tru === 'amman'){
+                alert('good');
                 break
+            }else{
+                alert('try again')
+                let score= (j+1)
             }
             
         }
@@ -112,6 +117,6 @@ for (i=0; i<6; i++){
             break;
         }
     }
-
+alert (`thank you ${userName} your score is ${score}`)
 
     
