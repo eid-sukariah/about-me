@@ -1,6 +1,6 @@
 'use strict'
 
-/*let userName = prompt('what is your name?')
+let userName = prompt('what is your name?')
 alert ('welcome  ' + userName)
 
 
@@ -61,40 +61,36 @@ let myFood = prompt('do you know my fav food?')
     }
         console.log (myFood)
 
-*/
 
-//let myA = 24;
 
-   /*switch (qu1){
-    case '24':
-       alert('right');
-       break;
-    case qu1 >'24':
-        alert('too high');
-    case qu1 < '24':
-        alert('too low')
 
-   }
-    */
+   
 let myA = 24;
 let qu1 = prompt('Do you know how old I am');
    
     for(let i=0; i<4; i++){
         
-    if (qu1 == myA ){
-    alert('right');
-    break
+    if (qu1 > myA ){
+    alert('too high');
+    qu1 = prompt('again pleas')
+    if (i===4){
+        alert('it is 24')
+    }
     }
     else if  (qu1 < myA ){
         alert('too low');
         qu1 =prompt  ('again pleas');
+        if (i===4){
+            alert ('it is 24')
+        }
     }
    
     else {
-        (qu1 > myA) 
-        alert('too high')
+        (qu1 == myA) 
+        alert('right')
+        break
     }
-    qu1 = prompt('again pleas')
+    
    
 }
 
