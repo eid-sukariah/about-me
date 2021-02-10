@@ -95,20 +95,19 @@ let qu1 = prompt('Do you know how old I am');
 }
 */
 
-let found = false;
-let bigCity = ['irbid', 'amman', 'alzaqaa', 'ma`an', 'ajlon', 'jarash' ]
-let tru = prompt('what is the biggest city in jordan')
-    tru = tru.toLowerCase();
+let flag = false;
+let loveCity = ['irbid', 'amman', 'ma`an', 'ajlon', 'jarash' ]
+
 
 for (i=0; i<6; i++){
+    let tru = prompt('can you guss my fav city in jordan?')
+    tru = tru.toLowerCase();
     
-        for (let j = 0; j < bigCity.length; j++) {
-            if (tru === 'amman'){
+        for (let j = 0; j < loveCity.length; j++) {
+            if (tru === loveCity[j]){
                 alert('good');
+                flag=true;
                 break
-            }else{
-                alert('try again')
-                let score= (j+1)
             }
             
         }
