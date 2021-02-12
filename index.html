@@ -10,7 +10,13 @@
 </head>
 <body>
     <header>
-        <h1>Home</h1>
+        <form>
+            <input class="putsc" type="search" ><label class="putsc">search</label>
+            <input class="put" required placeholder="user name" type="text"><label>user name</label>
+            <input class="put" required placeholder="password" type="password"><label>password</label>
+            <input class="put" type="submit" value="log in">
+        </form>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/800px-HBO_logo.svg.png" title="logo" alt="HBO">
         <nav>
             <ul>
                 <li><a href="index.html" target="_blank">home</a></li>
@@ -41,19 +47,23 @@
                     <td>Fundamentals of Digital Marketing</td>
                 </tr>
             </table>
-            <ul>
-                <h3>my experience</h3>
+
+            <h3>my experience</h3>
+            <ul class="ulexp">
                 <li>Boilers maintenance and operation</li>
                 <li>Medical supplies</li>
                 <li>graphic designer</li>
             </ul>
-            <ul>
-                <h3>the courses i toke</h3>
+
+            <h3>the courses i toke</h3>
+            <ul class="ulcorse">
                 <li>HAP program</li>
                 <li>Fundamentals of Digital Marketing</li>
                 <li>full-stack web development</li>
             </ul>
-            <ol>
+
+            <h3>my top fav movies</h3>
+            <ol class="olfav">
                 <li>the shawshank redemption</li>
                 <li>the godfather</li>
                 <li>Memento</li>
@@ -64,9 +74,22 @@
                 <li>the dark knight</li>
                 <li>pulp fiction</li>
                 <li>avatar</li>
-                
             </ol>
     </main>
+    <footer>
+        <form>
+            <input class="email" required placeholder="email" type="email"><label class="email">email</label>
+            <input required placeholder="password" type="password"><label>password</label>
+            <textarea rows="4" cols="50">write your suggestion please</textarea>
+            <input type="submit">
+        </form>
+        <p>&copy; eid sukariah 2021</p>
+        <div >
+        <a class="icon" href="https://github.com/eid-sukariah" target="_blank"><img src="https://www.flaticon.com/svg/vstatic/svg/733/733609.svg?token=exp=1613129271~hmac=e1516ee18e8327f15c982d38ede6f43a"></a>
+        <a class="icon" href="https://www.linkedin.com/in/eid-sukariah-27339219a/" target="_blank"><img src="https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1613129175~hmac=09241ece8ba9309bda9b22f7e7ad610c"></a>
+        <a class="icon" href="https://web.facebook.com/eid.sukariah" target="_blank"><img src="https://www.flaticon.com/svg/vstatic/svg/145/145802.svg?token=exp=1613128988~hmac=471c3554d198acb1d06f44304f258ab0"></a>
+        </div>
+    </footer>
     <script src ="js/app.js"></script>
 </body>
 </html>
