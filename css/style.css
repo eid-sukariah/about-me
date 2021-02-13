@@ -5,31 +5,41 @@
 
 table {
     border-collapse: collapse;
-    border: 2px dashed rgb(56, 54, 54);
+    border: 5px solid rgb(67, 66, 78);
+    height: 300px;
+    width: 1000px;
+    margin: 50px 300px;
+    font-size: x-large;
+    font-weight:bolder;
 }
 
 th, td {
-    border: rgb(13, 12, 17) solid  2px;
+    border: rgb(54, 51, 68) solid  5px;
 }
 
 
 .logo {
-    width: 90px;
-    padding-left: 10px;
+    width: 170px;
+    padding-left: 90%;
+    position: fixed;
+
 }
 
 header, footer {
-    background-color: rgb(56, 54, 54);
+    background-color: rgba(55, 54, 77, 0.973);
+    height: 300px;
 }
 
-
+p{
+    font-size: 40px;
+    padding: 20px;
+}
 
 header nav ul li {
     display: inline;
     font-size: 35px;
     padding: 20px;
-    text-decoration: none;
-    
+   
 }
 
 header nav ul li a{
@@ -40,16 +50,16 @@ header nav ul li a{
 
 .icon img{
     width: 50px;
-    padding: 5px;
+    padding: 10px;
     position: relative;
     left: 80%;
-   
 }
 
 footer p{
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 100px ;
+    left: 100px
 }
 
 .put{
@@ -59,12 +69,13 @@ footer p{
 }
 
 .putsc{
-    width: 400px;
+    width: 500px;
     height: 35px;
     border: 10px ;
-    border-radius: 8px;
+    border-radius: 10px;
     position: relative;
-    top: 50px; left: 40%;
+    top:200px; left: 40%;
+    
 }
 
 
@@ -75,17 +86,21 @@ footer form input, textarea{
 
 form textarea{
     position: relative;
-    top: 100px;
-    right: 20%;
-    
+    top: 150px;
+      
 }
 .email{
     position: relative;
     bottom:40px;
     left: 260px;
 }
+.submit{
+    width: 60px;  
+}
 
-
+.ulexp .ulcorse{
+    
+}
 
 
 
