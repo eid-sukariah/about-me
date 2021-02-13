@@ -30,8 +30,12 @@ header, footer {
     height: 300px;
 }
 
+ul li, ol li{
+    font-size: 20px;
+}
+
 p{
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -39,7 +43,9 @@ header nav ul li {
     display: inline;
     font-size: 35px;
     padding: 20px;
-   
+}
+nav{
+    padding-top: 150px;
 }
 
 header nav ul li a{
